@@ -27,16 +27,16 @@ export interface QRImageProps {
    * White space around QR image in modules
    */
   margin?: number;
-  transparent: boolean;
+  transparent?: boolean;
   /**
    * Color for code background
    */
-  background: string;
+  background?: string;
   /**
    * Color for code blocks
    */
-  color: string;
-  children: ReactNode;
+  color?: string;
+  children?: ReactNode;
 }
 
 const ReactQRImage = ({
